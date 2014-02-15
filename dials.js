@@ -1,6 +1,6 @@
 var ctx = document.querySelector('canvas').getContext('2d'),
-width = ctx.canvas.width,
-height = ctx.canvas.height;
+    width = ctx.canvas.width,
+    height = ctx.canvas.height;
 
 ctx.translate(width/2 + 0.5, height / 2 + 0.5);
 ctx.fillRect(0,0,3,3);
